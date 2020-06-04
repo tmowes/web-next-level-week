@@ -2,6 +2,10 @@
 import React from 'react'
 import './App.css'
 
-export default function App() {
-  return <h1>Hello Julius</h1>
+import Routes from './routes'
+
+const App: React.FC = () => {
+  return <Routes />
 }
+
+export default App
